@@ -1,0 +1,28 @@
+.form-box {
+  text-align: middle;
+  width:100%;
+  min-width: 800px;
+  max-width: 1200px;
+  height: 20px;
+  margin: 0 auto;
+  padding: 2em;
+  padding-bottom: 3em;
+  background-color: gainsboro;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.int_btn {
+  border-radius: 5px;
+  border-color: mediumaquamarine;
+  background: mediumaquamarine;
+  margin: 0 1em;
+  padding: 0.5em 2em;
+  position: right;
+}
+
+.input{
+  border-radius: 5px;
+  border-color: white;
+  margin: 1em;
+}

@@ -1,0 +1,12 @@
+.list-box{
+  width: 100%;
+  min-width: 800px;
+  max-width: 1200px;
+}
+
+.work-container {
+  display: flex;
+  gap: 12px;
+  font-size: 15px;
+  flex-wrap: wrap;
+}
