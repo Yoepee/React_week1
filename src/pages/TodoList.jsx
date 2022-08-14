@@ -3,8 +3,6 @@ import React, {useState} from "react";
 import Layout from "../components/layout/Layout"
 
 function TodoList(){
-    const [title, setTitle] = useState("");
-    const [desc, setDesc] = useState("");
     const [todos, setTodos] = useState([
         {
             id: 1,
