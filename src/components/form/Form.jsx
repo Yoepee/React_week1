@@ -28,8 +28,11 @@ const Form = ({addTodo}) => {
          className='int_btn'
          onClick={() => 
           {
-            if(title !== "" && desc !== "")
+            if(title !== "" && desc !== ""){
               addTodo(title, desc);
+              setTitle("");
+              setDesc("");
+            }
           }}
           >
           추가하기
