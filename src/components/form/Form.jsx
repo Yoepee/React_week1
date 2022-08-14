@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import List from "../list/List";
 import "./style.css";
 
 const Form = ({addTodo}) => {
@@ -29,7 +28,7 @@ const Form = ({addTodo}) => {
          className='int_btn'
          onClick={() => 
           {
-            if(title != "" && desc != "")
+            if(title !== "" && desc !== "")
               addTodo(title, desc);
           }}
           >

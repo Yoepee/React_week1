@@ -5,7 +5,7 @@ import Header from "../header/Header";
 import Form from "../form/Form";
 import List from "../list/List";
 
-function Layout({todos,  onChange, onRemove, addTodo}){
+function Layout({todos, onChange, onRemove, addTodo}){
     return(
         <div className="layout">
             <Header/>
