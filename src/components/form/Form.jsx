@@ -29,7 +29,8 @@ const Form = ({addTodo}) => {
          className='int_btn'
          onClick={() => 
           {
-            addTodo(title, desc);
+            if(title != "" && desc != "")
+              addTodo(title, desc);
           }}
           >
           추가하기
