@@ -5,8 +5,7 @@ import Todo from "../todo/Todo";
 
 
 const List = ({todos,  onChange, onRemove}) =>{
-    console.log(todos);
-    console.log(onRemove);
+    
     return (
         <div className="list-box">
             <h1>Working..🔥</h1>
